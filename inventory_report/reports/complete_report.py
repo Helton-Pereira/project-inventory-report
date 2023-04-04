@@ -33,5 +33,5 @@ class CompleteReport(SimpleReport):
             f'Data de validade mais próxima: {nearest_expiration_date}\n'
             f'Empresa com mais produtos: {most_frequent_company}\n'
             'Produtos estocados por empresa:\n'
-            f'{products_in_stock}\n'
+            f'{products_in_stock}'
         )
